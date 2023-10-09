@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: terminus_ttfmedium;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #212121;
+  color: #e3e3e3;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  font-family: press_start_2pregular;
+}
+
+main {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+  color: #212121;
+  width: 100%;
+}
+
+
+footer {
+  display: flex;
+  height: 50px;
+  color: #e3e3e3;
+  background-color: #212121;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url('https:///amandinedubon.net/css/PressStart/pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('https:///amandinedubon.net/css/PressStart/pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'terminus_ttfbold-italic';
+    src: url('https:///amandinedubon.net/css/Terminus/terminusttf-bold-italic-4.49.3-webfont.woff2') format('woff2'),
+         url('https:///amandinedubon.net/css/Terminus/terminusttf-bold-italic-4.49.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'terminus_ttfitalic';
+    src: url('https:///amandinedubon.net/css/Terminus/terminusttf-italic-4.49.3-webfont.woff2') format('woff2'),
+         url('https:///amandinedubon.net/css/Terminus/terminusttf-italic-4.49.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'terminus_ttfbold';
+    src: url('https:///amandinedubon.net/css/Terminus/terminusttf-bold-4.49.3-webfont.woff2') format('woff2'),
+         url('https:///amandinedubon.net/css/Terminus/terminusttf-bold-4.49.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'terminus_ttfmedium';
+    src: url('https:///amandinedubon.net/css/Terminus/terminusttf-4.49.3-webfont.woff2') format('woff2'),
+         url('https:///amandinedubon.net/css/Terminus/terminusttf-4.49.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
